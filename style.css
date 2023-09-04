@@ -1,0 +1,50 @@
+body {
+  /*big background*/
+  background-image:url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Game-Dragon-Wallpapers-HD.jpg");
+  background-size: 1450px 830px ;
+  }
+  
+  #text {
+    /*purple small box*/
+    width: 780px;
+    height: 50px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHON2lIFc4OicN7eRWtfalmpEBaCXi91lnvQ&usqp=CAU");
+    background-size: 800px 100px ;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  #game {
+    /*yellow around box*/
+    width: 800px;
+    height: 150px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPNF3kDcICh8YX5qfJoAYsN_FxWNhRQmMknA&usqp=CAU");
+    background-size: 850px 100px;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  #controls {
+    border: 2px black solid;
+    padding: 5px;
+  }
+  
+  #stats {
+    border: 2px black solid;
+    color: black;
+    padding: 5px;
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
